@@ -1,6 +1,8 @@
 # Pull base image.
 FROM library/ubuntu
 
+MAINTAINER Mumshad Mannambeth <mmumshad@gmail.com>
+
 RUN apt-get update
 
 #
